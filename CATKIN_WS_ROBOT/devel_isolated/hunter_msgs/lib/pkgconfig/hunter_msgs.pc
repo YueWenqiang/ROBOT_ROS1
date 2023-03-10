@@ -1,0 +1,8 @@
+prefix=/home/robot/CATKIN_WS_ROBOT/devel_isolated/hunter_msgs
+
+Name: hunter_msgs
+Description: Description of hunter_msgs
+Version: 0.0.0
+Cflags: -I/home/robot/CATKIN_WS_ROBOT/devel_isolated/hunter_msgs/include
+Libs: -L${prefix}/lib 
+Requires: 

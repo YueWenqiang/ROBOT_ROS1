@@ -1,0 +1,8 @@
+prefix=/home/robot/CATKIN_WS_ROBOT/devel_isolated/mycar_start
+
+Name: mycar_start
+Description: Description of mycar_start
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

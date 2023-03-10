@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robot/CATKIN_WS_ROBOT/devel_isolated/mycar_start/setup.sh

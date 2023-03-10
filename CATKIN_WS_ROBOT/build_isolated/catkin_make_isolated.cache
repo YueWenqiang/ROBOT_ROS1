@@ -1,0 +1,2 @@
+HesaiLidar_General_ROS:hunter_ros/hunter_base:hunter_ros/hunter_bringup:hunter_ros/hunter_msgs:mycar_description:mycar_start:nav:pointcloud_to_laserscan-lunar-devel:ugv_sdk
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/robot/CATKIN_WS_ROBOT/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/robot/CATKIN_WS_ROBOT/install_isolated

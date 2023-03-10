@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="rviz" default="true"/>
+   <!-- hunter_start -->
+  <include file="$(find hunter_bringup)/launch/hunter_base.launch" />
+
+   <!-- urdf -->
+  <include file="$(find mycar_description)/launch/display_simplecar.launch" />
+
+   <!-- hesai_laser -->
+  <include file="$(find hesai_lidar)/launch/hesai_lidar_PandarXT-16.launch" />
+  <node name="rplidar2basefootprint" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0.1 0 0 0 /base_footprint /hesai_laser"/>
+   <!-- pointcloud_to_laserscan -->
+  <include file="$(find pointcloud_to_laserscan)/launch/Hesai2Scan_node.launch" />
+
+  <!-- Gmapping -->
+  <include file="$(find nav)/launch/hunter_nav.launch" />
+  
+ <!-- RViz -->
+
+</launch>

@@ -1,0 +1,15 @@
+<!-- 
+    机器人启动文件：
+    1、启动底盘
+    2、启动激光雷达
+    3、激动摄像头
+ -->
+
+ <launch>
+ <!-- 启动底盘 -->
+    <include file="$(find hunter_bringup)/launch/hunter_base.launch" />
+ <!-- 启动激光雷达 -->
+    <include file="$(find hesai_lidar)/launch/hesai_lidar_PandarXT-16.launch" />
+ <!-- 启动点云转化 -->
+   <include file="$(find pointcloud_to_laserscan)/launch/Hesai2Scan_node.launch" />
+ </launch>

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robot/CATKIN_WS/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/robot/CATKIN_WS/src/hunter_ros/hunter_base/include/**",
+        "/home/robot/CATKIN_WS/src/nav/include/**",
+        "/home/robot/CATKIN_WS/src/ugv_sdk/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
